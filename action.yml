@@ -18,6 +18,10 @@ inputs:
   repository:
     description: 'Specify a repository where the issue will be created. e.g. rerost/issue-creator'
     default: ${{ github.repository }}
+outputs:
+  issue-number:
+    description: 'The issue number of the created issue'
+    default: 'Error: No issue number was output.'
 runs:
   using: "docker"
   image: 'Dockerfile.actions'
