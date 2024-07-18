@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-github/v37/github"
-	"github.com/rerost/issue-creator/types"
+	"github.com/littlix/issue-creator/types"
 )
 
 func StrToPtr(s string) *string {
