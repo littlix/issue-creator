@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/rerost/issue-creator/types"
+	"github.com/littlix/issue-creator/types"
 	"github.com/shurcooL/githubv4"
 	"go.uber.org/zap"
 )
