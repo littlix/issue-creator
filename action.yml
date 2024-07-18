@@ -21,7 +21,6 @@ inputs:
 outputs:
   new-issue-number:
     description: 'The issue number of the created issue'
-    default: "echo 'No issue number was output'"
 runs:
   using: "docker"
   image: 'Dockerfile.actions'
