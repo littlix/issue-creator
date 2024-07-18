@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/go-github/v37/github"
 	"github.com/google/wire"
-	"github.com/rerost/issue-creator/domain/issue"
-	"github.com/rerost/issue-creator/domain/schedule"
-	"github.com/rerost/issue-creator/repo"
+	"github.com/littlix/issue-creator/domain/issue"
+	"github.com/littlix/issue-creator/domain/schedule"
+	"github.com/littlix/issue-creator/repo"
 	"github.com/shurcooL/githubv4"
 	"github.com/spf13/cobra"
 	"golang.org/x/oauth2"
