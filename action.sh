@@ -14,7 +14,7 @@ if [ "${is_discussion}" = "true" ]; then
 fi
 
 url=https://github.com/${repository}/${type}/${template_issue}
-echo ${url}
+echo 'The template issue used is ' ${url}
 
 /issue-creator \
   create \
