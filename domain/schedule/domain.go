@@ -10,7 +10,7 @@ import (
 
 	"github.com/Masterminds/sprig"
 	"github.com/pkg/errors"
-	"github.com/rerost/issue-creator/repo"
+	"github.com/littlix/issue-creator/repo"
 	"go.uber.org/zap"
 )
 
