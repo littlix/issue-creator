@@ -1,6 +1,6 @@
 FROM golang:1.19-alpine AS builder
 
-WORKDIR $GOPATH/src/github.com/rerost/issue-creator
+WORKDIR $GOPATH/src/github.com/littlix/issue-creator
 
 COPY go.mod .
 COPY go.sum .
