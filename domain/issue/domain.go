@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rerost/issue-creator/repo"
-	"github.com/rerost/issue-creator/types"
+	"github.com/littlix/issue-creator/repo"
+	"github.com/littlix/issue-creator/types"
 	"go.uber.org/zap"
 )
 
