@@ -3,11 +3,11 @@ package cmd
 import (
 	"context"
 
-	"github.com/rerost/issue-creator/cmd/create"
-	"github.com/rerost/issue-creator/cmd/render"
+	"github.com/littlix/issue-creator/cmd/create"
+	"github.com/littlix/issue-creator/cmd/render"
 	cmdschedule "github.com/rerost/issue-creator/cmd/schedule"
-	"github.com/rerost/issue-creator/domain/issue"
-	"github.com/rerost/issue-creator/domain/schedule"
+	"github.com/littlix/issue-creator/domain/issue"
+	"github.com/littlix/issue-creator/domain/schedule"
 	"github.com/spf13/cobra"
 )
 
