@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rerost/issue-creator/cmd"
+	"github.com/littlix/issue-creator/cmd"
 )
 
 func main() {
