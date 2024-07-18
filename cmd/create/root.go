@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/rerost/issue-creator/domain/issue"
+	"github.com/littlix/issue-creator/domain/issue"
 	"github.com/spf13/cobra"
 )
 
